@@ -20,3 +20,10 @@ A **Data Structures & Algorithms-based** text editor built in C++ that supports 
 
 ## 📁 Project Structure
 
+## 🛠️ How It Works
+
+- Text lines are stored in a doubly linked list.
+- Insert, delete, and update actions are encapsulated as commands.
+- Each command supports both execution and undoing.
+- Two custom stacks manage the undo and redo history.
+- File operations allow saving/loading buffer contents persistently.
